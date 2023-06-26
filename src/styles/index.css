@@ -1,0 +1,208 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif&family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    width: 278px;
+    height: 47px;
+    margin-top: 110px;
+    font-family: 'PT Serif',serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: left;
+    color: #000000;
+    margin-right: 90px;
+}
+
+header h3 {
+    max-width: 117px;
+    height: 27px;
+    margin-top: 110px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-left: 100px;
+}
+
+header p {
+    max-width: 439px;
+    height: 87px;
+    margin-top: 10px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-left: 100px;
+}
+
+.galeria {
+    width: 100%;
+    padding: 0px 90px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row .column {
+    flex: 1;
+    margin: 0px 25px;
+}
+
+.row .column .object {
+    flex: 1;
+    margin: 50px 0px 90px;
+}
+
+.row .column img {
+    width: 238px;
+    height: 347px;
+    object-fit: cover;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.row .column h3 {
+    margin: 15px 0px;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.row .column p {
+    font-family: 'PT Seri',serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    padding: 0px 5px;
+    margin-bottom: 20px;
+
+}
+
+.card {
+    display: flex;
+}
+
+#down {
+    padding-top: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+footer a {
+    color: #BDBDBD;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .galeria {
+        padding: 0;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin-left: 15px;
+        margin-top: 70px;
+    }
+
+    header h3 {
+        margin-left: 15px;
+        margin-top: 35px;
+    }
+
+    header p {
+        margin-left: 15px;
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 333px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .row .column {
+        display: flex;
+    }
+
+    .row .column img {
+        width: 139px;
+        height: 226px;
+    }
+
+    .row .column h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .row .column p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .row .column .object {
+        margin: 5px;
+    }
+
+    #down {
+        padding-top: 0px;
+    }
+
+    #downy {
+        padding-top: 50px;
+    }
+
+    footer {
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+}
