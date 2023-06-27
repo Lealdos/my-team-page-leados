@@ -98,15 +98,16 @@ img {
   text-transform: uppercase;
   line-height: 13.25px;
 }
-footer {
+footer, footer a {
   margin: 2rem auto;
   color: var(--gray);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-montserrat);
+  text-align: center;
+  font-weight: var(--font-weight-medium);
 }
 
-footer a {
-  color: var(--gray);
-  font-weight: var(--font-weight-bold);
-}
+
 
 @media only screen and (min-width: 800px) {
   :root {
